@@ -1,7 +1,7 @@
 {
   "id": "31f02733-0685-4201-b3af-cf215e2a7341",
   "name": "SGB-Code-Test",
-  "publisher": "Default Publisher",
+  "publisher": "Publisher-VJ",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -17,7 +17,7 @@
   "idRanges": [
     {
       "from": 50100,
-      "to": 50149
+      "to": 70149
     }
   ],
   "resourceExposurePolicy": {

@@ -31,5 +31,8 @@ permissionset 50100 SGBPermission
         page "Kitchen Section List"=X,
         page "Mob App User API"=X,
         page "Mob App User Card"=X,
-        page "Mob App User List"=X;
+        page "Mob App User List"=X,
+        tabledata AssemblyProductionOrder=RIMD,
+        table AssemblyProductionOrder=X,
+        page "Assembly Production Order Doc"=X;
 }
