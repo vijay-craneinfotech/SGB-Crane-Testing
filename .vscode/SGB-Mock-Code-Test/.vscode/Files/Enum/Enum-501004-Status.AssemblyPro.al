@@ -1,5 +1,6 @@
 enum 50104 "Assembly Pro Status"
 {
+    Extensible = true;
     Caption = 'Assembly Pro Status';
 
     value(0; Pending)

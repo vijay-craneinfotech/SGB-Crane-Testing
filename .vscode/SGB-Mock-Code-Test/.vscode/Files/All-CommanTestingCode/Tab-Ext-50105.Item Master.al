@@ -13,5 +13,11 @@ tableextension 50105 "Item Ext" extends Item
             Caption = 'Item Usage Type';
             DataClassification = CustomerContent;
         }
+        field(50149; "URL"; Text[250])
+        {
+            Caption = 'URL';
+            ExtendedDatatype = URL;
+            DataClassification = CustomerContent;
+        }
     }
 }

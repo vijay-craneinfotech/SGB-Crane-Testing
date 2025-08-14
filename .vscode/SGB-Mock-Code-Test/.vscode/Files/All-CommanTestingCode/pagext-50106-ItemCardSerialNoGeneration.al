@@ -32,6 +32,13 @@ pageextension 50106 "Item Card Serial No. Actions" extends "Item Card"
                 ApplicationArea = All;
                 ToolTip = 'Select how this item is primarily used';
             }
+            field(URL; Rec.URL)
+            {
+                ApplicationArea = All;
+                ShowMandatory = true;
+                ToolTip = 'Specifies the web address for this item';
+                
+            }
         }
     }
 
