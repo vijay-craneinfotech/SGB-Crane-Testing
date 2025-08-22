@@ -1,5 +1,5 @@
 page 50140 "Assembly Data"   //this is working correct- https://api.businesscentral.dynamics.com/v2.0/f52861fd-85c4-4b16-b6a6-8b08b1901613/Sandbox/ODataV4/Company('CRONUS%20IN')/AssemblyOrder(documentType='Order',no='A00006')?$expand=AssemblyOrderLines
-{                            // it gives correct Get response
+{                            // it gives correct Get response service name= AssemblyOrder
     APIGroup = 'AssemblyOrderAPI';
     APIPublisher = 'VJ';
     APIVersion = 'v1.0';

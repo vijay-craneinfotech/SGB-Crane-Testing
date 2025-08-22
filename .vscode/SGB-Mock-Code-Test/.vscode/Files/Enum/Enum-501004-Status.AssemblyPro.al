@@ -1,4 +1,4 @@
-enum 50104 "Assembly Pro Status"
+enum 50104 "Prod Status"
 {
     Extensible = true;
     Caption = 'Assembly Pro Status';
@@ -7,28 +7,16 @@ enum 50104 "Assembly Pro Status"
     {
         Caption = 'Pending';
     }
-    value(1; Accepted)
+    value(1; WIP)
     {
-        Caption = 'Accepted';
+        Caption = 'WIP';
     }
     value(2; Hold)
     {
         Caption = 'Hold';
     }
-    value(3; "Partially Produced")
+    value(4; "Complete")
     {
-        Caption = 'Partially Produced';
-    }
-    value(4; "Completely Produced")
-    {
-        Caption = 'Completely Produced';
-    }
-    value(5; "Partially Offered to Baker")
-    {
-        Caption = 'Partially Offered to Baker';
-    }
-    value(6; "Offered to Baker")
-    {
-        Caption = 'Offered to Baker';
+        Caption = 'Complete';
     }
 }
